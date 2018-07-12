@@ -19,7 +19,11 @@ class Landing extends Component {
            <hr />
            <p>HTML/CSS | Bootstrap | Javascript | NodeJS | MySQL | Express | MongoDB | React</p>
            <div className="social-links">
-           <a href="www.linkedin.com/in/raichel-mary-john" rel="noopener noreferrer" target="_blank">
+           <a href="mailto:raicheljohn28@gmail.com" rel="noopener noreferrer" target="_blank">
+           <i className= "fa fa-envelope-o" aria-hidden="true" />
+           </a>
+
+           <a href="https://www.linkedin.com/in/raichel-mary-john-47a633152/" rel="noopener noreferrer" target="_blank">
            <i className= "fa fa-linkedin-square" aria-hidden="true" />
            </a>
 
