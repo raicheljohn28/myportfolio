@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, Footer, FooterSection } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
@@ -109,6 +109,13 @@ machines, providing customer guidance, and issuing service for systems under war
 
             </Cell>
             </Grid>
+
+            <Footer size="mega">
+           <FooterSection type="middle" className="foot">
+           <p>Copyright © 2018</p>
+           </FooterSection>
+           </Footer>
+
             </div>
         )
     }

@@ -12,7 +12,7 @@ background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-2
 background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
  text-align: center;
- position: fixed;
+ position: relative;
  top: 0;
  left: 0;
  width: 100%;
@@ -71,6 +71,8 @@ background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, F
   
 }
 
+
+
 .social-links i {
   color: white;
   font-size: 5em;
@@ -87,4 +89,11 @@ background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, F
   background: #27221f;
   color: white;
   padding: 2em;
+}
+
+.foot {
+  text-align: center;
+  color: rgb(231, 232, 163);
+ height: 24px;
+
 }

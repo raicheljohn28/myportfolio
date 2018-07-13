@@ -287,6 +287,12 @@ class Projects extends Component {
             <div className="content">{this.toggleCategories()}</div>            
             </Cell>
             </Grid>
+
+            {/* <Footer size="mega">
+           <FooterSection type="middle" className="foot">
+           <p>Copyright © 2018</p>
+           </FooterSection>
+           </Footer> */}
         
             
             </div>
