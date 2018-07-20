@@ -22,7 +22,7 @@ class Resume extends Component {
 
            <hr style= {{borderTop: '3px solid #833fb2', width: '50%'}}/>
 
-            <a className="res" href="/Raichel Mary John-Resume.docx" download="Raichel Resume">Download Resume</a>
+            <a className="res" href="/Raichel John-Resume.docx" download="Raichel Resume">Download Resume</a>
 
             </Cell>
             <Cell className="resume-right-col" col={8}>
