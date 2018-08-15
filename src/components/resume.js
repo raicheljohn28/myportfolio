@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Grid, Cell, Footer, FooterSection } from 'react-mdl';
+import { Grid, Cell, Footer, FooterSection, List, ListItem, ListItemContent } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
@@ -22,7 +22,25 @@ class Resume extends Component {
 
            <hr style= {{borderTop: '3px solid #833fb2', width: '50%'}}/>
 
-            <a className="res" href="/Raichel John-Resume.docx" download="Raichel Resume">Download Resume</a>
+            <div className="contact-list">
+              <List>
+                <ListItem>
+                  <ListItemContent style={{fontSize: '23px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-phone-square" aria-hidden="true"/>
+                    (551) 200-4753
+                  </ListItemContent>
+                </ListItem>
+        
+                <ListItem>
+                  <ListItemContent style={{fontSize: '23px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-envelope" aria-hidden="true"/>
+                    raicheljohn28@gmail.com
+                  </ListItemContent>
+                </ListItem>
+                </List>
+            </div>
+
+                <a className="res" href="/Raichel John-Resume.docx" download="Raichel Resume">Download Resume</a>
 
             </Cell>
             <Cell className="resume-right-col" col={8}>

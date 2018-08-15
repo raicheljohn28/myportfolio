@@ -12,6 +12,20 @@ class Projects extends Component {
     if(this.state.activeTab === 0) {
         return(
             <div className="projects-grid">
+             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: 'black', height: '176 px'}}>Unify</CardTitle>
+            <CardText>
+            The basic idea of this app is to make the coders share their opinions and career related views, obstacles they face in the job.
+    </CardText>
+    <CardActions border>
+    <Button colored><a href="https://github.com/raicheljohn28/Unify" rel="noopener noreferrer" target="_blank">Github</a></Button>
+    <Button colored><a href="https://rocky-plateau-23049.herokuapp.com/"rel="noopener noreferrer" target="_blank">Heroku</a></Button>
+    </CardActions>
+    <CardMenu style={{color: '#fff'}}>
+   
+    </CardMenu>
+           </Card>
+
            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176 px'}}>Book App</CardTitle>
             <CardText>
@@ -264,6 +278,8 @@ class Projects extends Component {
      <CardMenu style={{color: '#fff'}}>
      </CardMenu>
             </Card>
+
+            
             </div>
         )
     }
