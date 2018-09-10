@@ -12,6 +12,19 @@ class Projects extends Component {
     if(this.state.activeTab === 0) {
         return(
             <div className="projects-grid">
+               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: 'black', height: '176 px'}}>Melon-Cauli</CardTitle>
+            <CardText>
+            This is a simple eCommerce store plus shopping cart interface built by taking advantage of the modular nature of ReactJS. 
+    </CardText>
+    <CardActions border>
+    <Button colored><a href="https://github.com/raicheljohn28/shop-cart" rel="noopener noreferrer" target="_blank">Github</a></Button>
+    <Button colored><a href="https://evening-temple-63957.herokuapp.com/"rel="noopener noreferrer" target="_blank">Heroku</a></Button>
+    </CardActions>
+    <CardMenu style={{color: '#fff'}}>
+   
+    </CardMenu>
+           </Card>
              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176 px'}}>Unify</CardTitle>
             <CardText>
